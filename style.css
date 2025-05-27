@@ -406,5 +406,79 @@ span{
     text-align: center;
     text-transform: uppercase;
     color: rgba(156, 156, 156, 0.3);
-    z-index: 10;
+    z-index: 0;
+}
+
+.katalog{
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    grid-template-rows: 430px 430px 430px;
+    grid-template-areas: 
+    'win1 win2 win3'
+    'win4 win5 win6'
+    'win7 win8 win9';
+    gap: 9px 12px;
+}
+
+#div1{
+    grid-area: win1;
+}
+
+
+#div2{
+    grid-area: win2;
+}
+
+#div3{
+    grid-area: win3;
+}
+
+#div4{
+    grid-area: win4;
+}
+
+#div5{
+    grid-area: win5;
+}
+
+#div6{
+    grid-area: win6;
+}
+
+#div7{
+    grid-area: win7;
+}
+
+#div8{
+    grid-area: win8;
+}
+
+#div9{
+    grid-area: win9;
+}
+
+
+
+.sskidka{
+    width: 55px;
+    height: 32px;
+    border-radius: 5px;
+    color: white;
+    background: rgba(20, 24, 25, 1);
+
+}
+
+.sskidka h1{
+    width: 43px;
+    height: 19px;
+    position: relative;
+    top: 7px;
+    left: 9px;
+
+}
+
+.katalog div{
+    width: 350px;
+    height: 427px;
+    border: 1px solid black;
 }
