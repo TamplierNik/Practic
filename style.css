@@ -51,8 +51,7 @@ header{
 .navigation{
     display: flex;
     position: relative;
-    padding-left: 130px;
-    padding-right: 130px;
+    padding-left: 200px;
     left: 200px;
     bottom: 34px;
     Width: 917px;
@@ -63,6 +62,62 @@ header{
 
 .navig{
     font-weight: 600;
-    font-size: 14px;
+    font-size: 16px;
 
+}
+
+.account{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 5px;
+    position: relative;
+    float: right;
+    bottom: 60px;
+    Width: 255px;
+    Height: 20px;
+
+}
+
+.enter{
+    display: flex;
+    flex-direction: row;
+    Width: 73px;
+    Height: 24px;
+    Gap:8px;
+}
+
+
+.vhod{
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.wallet{
+    display: flex;
+    flex-direction: row;
+    Width: 73px;
+    Height: 24px;
+}
+
+.count{
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.section{
+    Width:1831px;
+    Height:244px;
+    Top:142px;
+    Left:-125px;
+    font-family: 'Inter';
+    font-weight: 900;
+    font-size: 202px;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgba(235, 235, 235, 1); 
 }
