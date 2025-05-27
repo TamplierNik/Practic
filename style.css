@@ -115,7 +115,7 @@ main{
     text-transform:Uppercase;
 }
 
-.section{
+.section1{
     display: flex;
     position: relative;
     Width:1831px;
@@ -128,7 +128,6 @@ main{
     text-align: center;
     text-transform: uppercase;
     color: rgba(156, 156, 156, 0.3);
-
     z-index: 10;
 }
 
@@ -146,7 +145,7 @@ main{
     flex-direction: column;
     Width:410px;
     Height:532px;
-    Top:-1270px;
+    Top:-1260px;
     Left:1315px;
     Padding:30px;
     Gap:30px;
@@ -192,8 +191,8 @@ span{
 
 .stats{
     display: grid;
-    grid-template-columns: 160px 160px;
-    grid-template-rows: 65px;
+    grid-template-columns: 185px 185px;
+    grid-template-rows: 85px 85px;
     grid-template-areas: 
     'box1 box2'
     'box3 box4';
@@ -204,7 +203,7 @@ span{
 
 .material{
     Width: 160px;
-    Height: 63px;
+    Height: 85px;
 }
 
 .point{
@@ -222,20 +221,20 @@ span{
 }
 
 .options{
-    Width: 160px;
+    Width: 150px;
     Height: 63px;
     position: relative;
     float: right;
 }
 
 .gabarit{
-    Width: 160px;
+    Width: 150px;
     Height: 63px;
 }
 
 .glass{
-    Width: 160px;
-    Height: 63px;
+    Width: 150px;
+    Height: 44px;
     position: relative;
     float: right;
 }
@@ -245,7 +244,7 @@ span{
     justify-content: center;
     align-items: center;
     position: relative;
-    top:-170px;
+    top:-200px;
     width: 145px;
     height: 25px;
     border-radius: 9px;
@@ -281,4 +280,131 @@ span{
 
 #glass{
     grid-area: box4;
+}
+
+.galary img{
+    Width:171px;
+    Height:121px;
+    border-radius:9px;
+}
+
+.galary{
+    display: flex;
+    width: 543px;
+    height: 121px;
+    position: relative;
+    top: -1109px;
+    left: 129px;
+    gap: 15px;
+}
+
+.strelka1{
+    position: relative;
+    top:-1020px;
+    left:102px;
+}
+
+.strelka2{
+    position: relative;
+    top:-1190px;
+    left:685px;
+}
+
+.information{
+    width: 720px;
+    height: 127px;
+    position: relative;
+    top: -1359px;
+    left: 857px;
+    gap:30px;
+}
+
+.div1{
+    width: 220px;
+    height: 117px;
+}
+
+.div2{
+    width: 220px;
+    height: 117px;
+    position: relative;
+    top: -157.5px;
+    left: 250px;
+}
+
+.div3{
+    width: 220px;
+    height: 127px;
+    position: relative;
+    top: -264px;
+    left: 550px;
+}
+
+.div1 h1{
+    position: relative;
+    top:40px;
+    width: 73px;
+    height: 73px;
+    font-weight: 900;
+    font-size: 60px;
+    color: black;
+}
+
+.div1 p{
+    width: 193px;
+    height: 44px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: black;
+}
+
+.div2 h1{
+    position: relative;
+    top:40px;
+    width: 73px;
+    height: 73px;
+    font-weight: 900;
+    font-size: 60px;
+    color: black;
+}
+
+.div2 p{
+    width: 202px;
+    height: 44px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: black;
+}
+
+.div3 img{
+    position: relative;
+    top:20px;
+
+}
+
+.div3 p{
+    width: 193px;
+    height: 44px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: black;
+}
+
+.section2{
+    display: flex;
+    position: relative;
+    Width:1075px;
+    Height:204px;
+    Top:-1342px;
+    Left:500px;
+    font-family: 'Inter';
+    font-weight: 900;
+    font-size: 225px;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgba(156, 156, 156, 0.3);
+    z-index: 10;
 }
