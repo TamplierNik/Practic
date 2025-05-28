@@ -311,11 +311,11 @@ span{
 }
 
 .information{
-    width: 720px;
-    height: 127px;
+    width: 740px;
+    height: 155px;
     position: relative;
     top: -1359px;
-    left: 857px;
+    left: 870px;
     gap:30px;
 }
 
@@ -398,7 +398,7 @@ span{
     position: relative;
     Width:1075px;
     Height:204px;
-    Top:-1342px;
+    Top:-1365px;
     Left:500px;
     font-family: 'Inter';
     font-weight: 900;
@@ -410,6 +410,11 @@ span{
 }
 
 .katalog{
+    position: relative;
+    top: -1540px;
+    left: 543px;
+    width: 1075px;
+    height: 1310px;
     display: grid;
     grid-template-columns: 350px 350px 350px;
     grid-template-rows: 430px 430px 430px;
@@ -418,6 +423,7 @@ span{
     'win4 win5 win6'
     'win7 win8 win9';
     gap: 9px 12px;
+    z-index: 10;
 }
 
 #div1{
@@ -463,22 +469,171 @@ span{
     width: 55px;
     height: 32px;
     border-radius: 5px;
-    color: white;
     background: rgba(20, 24, 25, 1);
+    position: relative;
+    top: -11px; 
+    left: -2px;
 
 }
 
-.sskidka h1{
+.procent{
     width: 43px;
     height: 19px;
+    color: white;
     position: relative;
-    top: 7px;
-    left: 9px;
+    top: 6px;
+    left: 7px;
+    font-weight: 900;
+    font-size: 16px;
 
 }
 
-.katalog div{
-    width: 350px;
-    height: 427px;
+.akcia{
+    width: 152px;
+    height: 32px;
+    position: relative;
+    top: 14px;
+    left: 15px;
+    border-radius: 5px;
     border: 1px solid black;
 }
+
+.do_1{
+    width: 81px;
+    height: 17px;
+    position: absolute;
+    top: -4px;
+    left: 62px;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    text-transform: none;
+
+}
+
+.div_grid{
+    width: 350px;
+    height: 427px;
+    border-radius: 9px;
+    background: rgb(243, 242, 242);
+}
+
+.star{
+    width: 23px;
+    height: 22px;
+    color: rgba(0,0,0);
+    position: absolute;
+    left: -319px;
+    top: -5px;
+
+}
+
+.clock2{
+    width: 289px;
+    height: 186px;
+    position: relative;
+    top: 23px;
+    left: 30px;
+}
+
+.info2{
+    width: 377px;
+    height: 154px;
+    position: relative;
+    top: 30px;
+    padding: 20px;
+    gap: 12px;
+}
+
+.vostok{
+    width: 337px;
+    height: 22px;
+    font-weight: 900;
+    font-size: 18px;
+
+}
+
+.katalog_price{
+    width: 67px;
+    height: 29px;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.katalog_rubl{
+    width: 16px;
+    height: 29px;
+    font-weight: 400;
+    font-size: 24px;
+    position: absolute;
+    top: -24px;
+    left: 74px;
+    color: rgba(0, 0, 0, 0.3);;
+}
+
+.katalog_number{
+    width: 89px;
+    height: 29px;
+    position: relative;
+    top: -15px;
+    gap: 6px;
+}
+
+.korzina_div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -10px;
+    width: 100px;
+    height: 25px;
+    border: 2px solid black;
+    border-radius: 9px;
+    padding: 6px 20px;
+    gap: 10px;
+    text-transform: none;
+}
+
+.korzina{
+    width: 79px;
+    height: 19px;
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+}
+
+.akcia_none{
+    width: 152px;
+    height: 32px;
+    position: relative;
+    top: 14px;
+    left: 15px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0);
+}
+
+.clock3{
+    width: 289px;
+    height: 226px;
+    margin-bottom: 1px;
+    position: relative;
+    left: 30px;
+}
+
+.info3{
+    width: 377px;
+    height: 154px;
+    position: relative;
+    top: -13px;
+    padding: 20px;
+    gap: 12px;
+}
+
+.clock6{
+    width: 289px;
+    height: 193px;
+    margin-bottom: 34px;
+    position: relative;
+    left: 30px;
+}
+
