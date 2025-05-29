@@ -515,7 +515,8 @@ span{
     width: 350px;
     height: 427px;
     border-radius: 9px;
-    background: rgb(243, 242, 242);
+    background: rgb(243, 242, 242, 0.7);
+    backdrop-filter: blur(16px);  
 }
 
 .star{
@@ -637,3 +638,140 @@ span{
     left: 30px;
 }
 
+.filter{
+    display: flex;
+    flex-direction: column;
+    width: 264px;
+    height: 436px;
+    position: relative;
+    top: -2801px;
+    left: 130px;
+    gap: 2px;
+    color: black;
+    text-transform: none;
+
+}
+
+.vibor{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.active{
+    
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.point_active{
+    width: 7px;
+    height: 7px;
+    position: absolute;
+    top: 66px;
+    left: -16px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.line{
+    width: 201px;
+    border: 1px solid rgba(235, 235, 235, 1);
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+
+.cena{
+    display: flex;
+    width: 224px;
+    height: 66px;
+    gap: 10px;
+}
+
+.price_boxs{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 44px;
+    left: -54px;
+    width: 186px;
+    height: 34px;
+    gap: 10px;
+}
+
+.price_box{
+    width: 77px;
+    height: 34px;
+    border-radius: 6px;
+    background-color: rgba(235, 235, 235, 1);
+}
+
+.line2{
+    width: 12px;
+    height: 0px;
+    position: relative;
+    top: 16px;
+    border: 1px solid black;
+}
+
+.sskidka_box{
+    display:flex; 
+    position: relative;
+    top: 24px;
+    width: 244px;
+    height: 34px;
+    gap: 10px;
+}
+
+.sskidka_text{
+    width: 102px;
+    height: 22px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.toggle{
+    position: relative;
+    top: 7px;
+    width: 56px;
+    height: 30px;
+    background-color: rgba(217, 217, 217, 1);
+    border-radius: 39px;
+}
+
+.ellipse{
+    width: 22px;
+    height: 22px;
+    position: relative;
+    border-radius: 50%;
+    top: 4px;
+    left: 4px;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+.more_filters{
+    position: relative;
+    top: 54px;
+    width: 224px;
+    height: 34px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.img_filter{
+    width: 18px;
+    height: 19px;
+    border-radius: 1px;
+}
+
+.filter_text{
+    position: relative;
+    top: -15px;
+    width: 119px;
+    height: 22px;
+    font-weight: 400;
+    font-size: 18px;
+
+}
