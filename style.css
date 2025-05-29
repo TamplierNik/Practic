@@ -1,13 +1,19 @@
 body{
     font-family: 'Inter';
+    width: 1600px;
+    
 }
 
 header{
-    width: 87%;
+    display: flex;
+    width: 100%;
     height: 127px;
     justify-content: space-between;
     padding-left: 120px;
     padding-right: 120px;
+    margin-left: 1px;
+    margin-top: 2px;
+    margin-right: 1px;
     text-transform:Uppercase;
 }
 
@@ -22,10 +28,9 @@ header{
 .name{
     Width:155px;
     Height:29px;
-    Top:6px;
-    Left:10px;
     font-weight: 800;
     font-size: 30px;
+    letter-spacing: 0.2px;
 }
 
 .surname{
@@ -49,31 +54,33 @@ header{
 .navigation{
     display: flex;
     position: relative;
-    padding-left: 200px;
-    left: 200px;
+    top: 45px;
+    left: -114px;
     bottom: 34px;
-    Width: 917px;
+    Width: 652px;
     Height: 22px;
-    gap:112px;
+    gap: 107px;
     align-items: center;
+    justify-content: space-between;
 }
 
 .navig{
     font-weight: 600;
-    font-size: 16px;
+    font-size: 14px;
 
 }
 
 .account{
     display: flex;
-    align-items: center;
+    align-items: stretch;
     justify-content: space-between;
-    padding-top: 5px;
     position: relative;
     float: right;
+    top: 45px;
+    right: 248px;
     bottom: 60px;
-    Width: 255px;
-    Height: 20px;
+    Width: 257px;
+    Height: 23px;
 
 }
 
@@ -90,6 +97,7 @@ header{
     align-items: center;
     font-weight: 600;
     font-size: 14px;
+    letter-spacing: -0.2px;
 }
 
 .wallet{
@@ -101,6 +109,9 @@ header{
 
 .wallet img{
     margin-right: 8px;
+    position: relative;
+    left: -0.5px;
+    top: -0.5px;
 }
 
 .count{
@@ -108,10 +119,13 @@ header{
     align-items: center;
     font-weight: 600;
     font-size: 14px;
+    position: relative;
+    top: -1px;
+    left: 0.5px;
 }
 
 main{
-    width: 87%;
+    width: 1600px;
     text-transform:Uppercase;
 }
 
@@ -120,23 +134,24 @@ main{
     position: relative;
     Width:1831px;
     Height:204px;
-    Top:-142px;
-    Left:10px;
+    Top: -97px;
+    Left:-58px;
     font-family: 'Inter';
     font-weight: 900;
-    font-size: 225px;
+    font-size: 199px;
     text-align: center;
+    letter-spacing: 5.4px;
     text-transform: uppercase;
     color: rgba(156, 156, 156, 0.3);
-    z-index: 10;
+    z-index: 0;
 }
 
 .clock{
     position: relative;
     Width:1016px;
-    top: -500px;
-    Left: 62px;
-    z-index: 0;
+    top: -464px;
+    Left: 57px;
+    z-index: 10;
 }
 
 .info{
@@ -145,8 +160,8 @@ main{
     flex-direction: column;
     Width:410px;
     Height:532px;
-    Top:-1260px;
-    Left:1315px;
+    Top:-1219px;
+    Left:1109px;
     Padding:30px;
     Gap:30px;
     z-index: 20;
@@ -156,19 +171,47 @@ main{
     width: 302px;
     height: 88px;
     font-weight: 900;
-    font-size: 36px;
+    font-size: 37px;
+}
+
+.upper_name{
+    width: 302px;
+    height: 88px;
+    font-weight: 900;
+    font-size: 37px;
+    position: relative;
+    top: -38.6px;
+    left: 2px;
+    letter-spacing: 1.2px;
+}
+
+.downer_name{
+    width: 300px;
+    height: 88px;
+    font-weight: 900;
+    font-size: 37px;
+    position: relative;
+    top: -201px;
+    left: -1px;
 }
 
 span{
-    width: 15px;
-    border: 5px solid black;
+    width: 9px;
+    border: 3px solid black;
+    position: relative;
+    top: -31px;
+    left: -2px;
 }
 
 .number{
     width: 175px;
     height: 58px;
-    margin-top: -25px;
-    margin-bottom: 218px;
+    letter-spacing: 1px;
+    margin-top: -64px;
+    margin-bottom: 213px;
+    position: relative;
+    top: -1px;
+    left: -0.3px;
 }
 
 .price{
@@ -191,33 +234,108 @@ span{
 
 .stats{
     display: grid;
-    grid-template-columns: 185px 185px;
-    grid-template-rows: 85px 85px;
-    grid-template-areas: 
-    'box1 box2'
-    'box3 box4';
+    grid-template-columns: 159px 159px;
+    grid-template-rows: 60px 60px;
+    grid-template-areas:
+        'box1 box2'
+        'box3 box4';
     position: relative;
-    top:-180px;
+    text-transform: none;
+    top: -180px;
     gap: 20px;
 }
 
 .material{
     Width: 160px;
     Height: 85px;
+    position: relative;
+    top: -2px;
+    left: -2px;
 }
 
-.point{
+.point1{
     font-weight: 400;
     font-size: 16px;
     color: rgba(171, 171, 171, 1);
     margin-top: 0px;
     margin-bottom: -10px;
+    letter-spacing: 0.1px;
 }
 
-.opisanie{
+.point2{
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(171, 171, 171, 1);
+    margin-top: 0px;
+    margin-bottom: -10px;
+    position: relative;
+    top: -2px;
+    left: -0.7px;
+}
+
+.point3{
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(171, 171, 171, 1);
+    margin-top: 0px;
+    margin-bottom: -10px;
+    position: relative;
+    top: 1px;
+    left: -2px;
+    letter-spacing: 0.1px;
+}
+
+.point4{
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(171, 171, 171, 1);
+    margin-top: 0px;
+    margin-bottom: -10px;
+    position: relative;
+    top: 1px;
+    left: -1px;
+    letter-spacing: 0.3px;
+}
+
+
+.opisanie1{
     font-weight: 600;
     font-size: 16px;
     color: rgba(0, 0, 0, 1);
+    position: relative;
+    top: -1.39px;
+    letter-spacing: 0.11px;
+    
+}
+
+.opisanie2{
+    font-weight: 600;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 1);
+    position: relative;
+    top: -3.3px;
+    left: -1px;
+    letter-spacing: 0.14px;
+    
+}
+
+.opisanie3{
+    font-weight: 600;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 1);
+    position: relative;
+    left: -2px;
+    letter-spacing: 0.1px;
+    
+}
+
+.opisanie4{
+    font-weight: 600;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 1);
+    position: relative;
+    left: -1px;
+    
 }
 
 .options{
@@ -225,6 +343,7 @@ span{
     Height: 63px;
     position: relative;
     float: right;
+    
 }
 
 .gabarit{
@@ -244,26 +363,28 @@ span{
     justify-content: center;
     align-items: center;
     position: relative;
-    top:-200px;
-    width: 145px;
-    height: 25px;
+    top: -175px;
+    left: -2px;
+    width: 133px;
+    height: 20px;
     border-radius: 9px;
     border: 2px solid black;
-    padding: 18px 56px;
+    padding: 18px 54px;
     gap: 10px;
     text-transform: none;
 }
 
 .button_buy img{
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
 }
 
 .button_buy h1{
-    width: 99px;
+    width: 102px;
     height: 24px;
     font-weight: 500;
     font-size: 20px;
+    letter-spacing: 0.2px;
 }
 
 #material{
@@ -293,80 +414,84 @@ span{
     width: 543px;
     height: 121px;
     position: relative;
-    top: -1109px;
-    left: 129px;
+    top: -1190px;
+    left: 121px;
     gap: 15px;
+    
 }
 
 .strelka1{
     position: relative;
-    top:-1020px;
-    left:102px;
+    top: -1099.9px;
+    left: 92px;
 }
 
 .strelka2{
     position: relative;
-    top:-1190px;
-    left:685px;
+    top: -1271px;
+    left: 679px;
 }
 
 .information{
-    width: 740px;
+    width: 720px;
     height: 155px;
+    display: flex;
     position: relative;
-    top: -1359px;
-    left: 870px;
-    gap:30px;
+    top: -1394px;
+    left: 821px;
+    gap: 30px;
+    text-transform: none;
 }
 
 .div1{
     width: 220px;
-    height: 117px;
+    height: 155px;
 }
 
 .div2{
     width: 220px;
-    height: 117px;
-    position: relative;
-    top: -157.5px;
-    left: 250px;
+    height: 155px;
 }
 
 .div3{
     width: 220px;
-    height: 127px;
-    position: relative;
-    top: -264px;
-    left: 550px;
+    height: 155px;
 }
 
 .div1 h1{
     position: relative;
-    top:40px;
+    top: -11px;
     width: 73px;
     height: 73px;
     font-weight: 900;
-    font-size: 60px;
+    font-size: 61px;
+    letter-spacing: 3.5px;
     color: black;
 }
 
 .div1 p{
-    width: 193px;
-    height: 44px;
+    width: 160px;
+    height: 40px;
     font-weight: 400;
     font-size: 15px;
     line-height: 22px;
+    position: relative;
+    letter-spacing: 0.06px;
+    top: -52px;
+    left: -2px;
     color: black;
 }
 
 .div2 h1{
     position: relative;
-    top:40px;
+    top: -11px;
+    left: -1px;
     width: 73px;
     height: 73px;
     font-weight: 900;
     font-size: 60px;
     color: black;
+    letter-spacing: 6px;
 }
 
 .div2 p{
@@ -375,12 +500,17 @@ span{
     font-weight: 400;
     font-size: 15px;
     line-height: 22px;
+    position: relative;
+    top: -51px;
+    letter-spacing: 0.1px;
+    left: -1.5px;
     color: black;
 }
 
 .div3 img{
     position: relative;
-    top:20px;
+    top: 25px;
+    left: -2px;
 
 }
 
@@ -390,20 +520,25 @@ span{
     font-weight: 400;
     font-size: 15px;
     line-height: 22px;
+    position: relative;
+    top: 6px;
+    left: -2px;
+    letter-spacing: 0.1px;
     color: black;
 }
 
 .section2{
     display: flex;
     position: relative;
-    Width:1075px;
-    Height:204px;
-    Top:-1365px;
-    Left:500px;
+    Width: 1075px;
+    Height: 204px;
+    Top: -1356px;
+    Left: 367px;
     font-family: 'Inter';
     font-weight: 900;
-    font-size: 225px;
+    font-size: 204px;
     text-align: center;
+    letter-spacing: 8px;
     text-transform: uppercase;
     color: rgba(156, 156, 156, 0.3);
     z-index: 0;
@@ -411,18 +546,18 @@ span{
 
 .katalog{
     position: relative;
-    top: -1540px;
-    left: 543px;
+    top: -1573px;
+    left: 407px;
     width: 1075px;
     height: 1310px;
     display: grid;
     grid-template-columns: 350px 350px 350px;
     grid-template-rows: 430px 430px 430px;
-    grid-template-areas: 
-    'win1 win2 win3'
-    'win4 win5 win6'
-    'win7 win8 win9';
-    gap: 9px 12px;
+    grid-template-areas:
+        'win1 win2 win3'
+        'win4 win5 win6'
+        'win7 win8 win9';
+    gap: 6px 12px;
     z-index: 10;
 }
 
@@ -482,18 +617,38 @@ span{
     color: white;
     position: relative;
     top: 6px;
-    left: 7px;
+    left: 6px;
+    letter-spacing: -0.2px;
     font-weight: 900;
     font-size: 16px;
-
 }
 
 .akcia{
-    width: 152px;
-    height: 32px;
+    width: 149px;
+    height: 30px;
     position: relative;
     top: 14px;
-    left: 15px;
+    left: 16px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.akcia2{
+    width: 149px;
+    height: 30px;
+    position: relative;
+    top: 18px;
+    left: 21px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.akcia3{
+    width: 149px;
+    height: 30px;
+    position: relative;
+    top: 14px;
+    left: 16px;
     border-radius: 5px;
     border: 1px solid black;
 }
@@ -503,7 +658,7 @@ span{
     height: 17px;
     position: absolute;
     top: -4px;
-    left: 62px;
+    left: 61px;
     font-weight: 400;
     font-size: 14px;
     color: rgb(0, 0, 0);
@@ -511,7 +666,7 @@ span{
 
 }
 
-.div_grid{
+.div_grid1{
     width: 350px;
     height: 427px;
     border-radius: 9px;
@@ -519,38 +674,408 @@ span{
     backdrop-filter: blur(16px);  
 }
 
-.star{
+.div_grid2{
+    width: 350px;
+    height: 427px;
+    border-radius: 9px;
+    background: rgb(243, 242, 242, 0.7);
+    backdrop-filter: blur(16px);  
+}
+
+.div_grid3{
+    width: 350px;
+    height: 427px;
+    border-radius: 9px;
+    background: rgb(243, 242, 242, 0.7);
+    backdrop-filter: blur(16px);  
+}
+
+.div_grid4{
+    width: 350px;
+    height: 427px;
+    border-radius: 9px;
+    background: rgb(243, 242, 242, 0.7);
+    backdrop-filter: blur(16px);  
+}
+
+.div_grid5{
+    width: 350px;
+    height: 427px;
+    border-radius: 9px;
+    background: rgb(243, 242, 242, 0.7);
+    backdrop-filter: blur(16px);  
+}
+
+.div_grid6{
+    width: 350px;
+    height: 427px;
+    border-radius: 9px;
+    background: rgb(243, 242, 242, 0.7);
+    backdrop-filter: blur(16px);  
+}
+
+.div_grid7{
+    width: 350px;
+    height: 427px;
+    border-radius: 9px;
+    background: rgb(243, 242, 242, 0.7);
+    backdrop-filter: blur(16px);  
+}
+
+.div_grid8{
+    width: 350px;
+    height: 427px;
+    border-radius: 9px;
+    background: rgb(243, 242, 242, 0.7);
+    backdrop-filter: blur(16px);  
+}
+
+.div_grid9{
+    width: 350px;
+    height: 427px;
+    border-radius: 9px;
+    background: rgb(243, 242, 242, 0.7);
+    backdrop-filter: blur(16px);  
+}
+
+.div_grid9{
+    width: 350px;
+    height: 427px;
+    border-radius: 9px;
+    background: rgb(243, 242, 242, 0.7);
+    backdrop-filter: blur(16px);  
+}
+
+.star1{
     width: 23px;
     height: 22px;
-    color: rgba(0,0,0);
-    position: absolute;
-    left: -319px;
-    top: -5px;
+    color: rgba(0, 0, 0);
+    position: relative;
+    left: 296px;
+    top: -164px;
 
+}
+
+.star2{
+    width: 23px;
+    height: 22px;
+    color: rgba(0, 0, 0);
+    position: relative;
+    left: 298.4px;
+    top: -220px;
+}
+
+.star3{
+    width: 23px;
+    height: 22px;
+    color: rgba(0, 0, 0);
+    position: relative;
+    left: 298.4px;
+    top: -225px;
+}
+
+.star4{
+    width: 23px;
+    height: 22px;
+    color: rgba(0, 0, 0);
+    position: relative;
+    left: 298.5px;
+    top: -11.1px;
+}
+
+.star5{
+    width: 23px;
+    height: 22px;
+    color: rgba(0, 0, 0);
+    position: relative;
+    left: 298.5px;
+    top: -219.1px;
+}
+
+.star6{
+    width: 23px;
+    height: 22px;
+    color: rgba(0, 0, 0);
+    position: relative;
+    left: 298.5px;
+    top: -217.1px;
+}
+
+.star7{
+    width: 23px;
+    height: 22px;
+    color: rgba(0, 0, 0);
+    position: relative;
+    left: 298.5px;
+    top: -259px;
+}
+
+.star8{
+    width: 23px;
+    height: 22px;
+    color: rgba(0, 0, 0);
+    position: relative;
+    left: 295.5px;
+    top: -198.1px
+}
+
+.star9{
+    width: 23px;
+    height: 22px;
+    color: rgba(0, 0, 0);
+    position: relative;
+    left: 298.5px;
+    top: -290.1px;
 }
 
 .clock2{
-    width: 289px;
-    height: 186px;
+    width: 271px;
+    height: 179px;
     position: relative;
     top: 23px;
-    left: 30px;
+    left: 9px;
+}
+
+.clock3{
+    width: 289px;
+    height: 231px;
+    margin-bottom: 1px;
+    position: relative;
+    left: 7px;
+    top: -13px;
+}
+
+.clock4{
+    width: 288px;
+    height: 237px;
+    position: relative;
+    top: -17px;
+    left: 4px;
+}
+
+.clock5{
+    width: 338px;
+    height: 275px;
+    position: relative;
+    top: -67px;
+}
+
+.clock6{
+    width: 288px;
+    height: 196px;
+    margin-bottom: 34px;
+    position: relative;
+    top: 11px;
+    left: 8px;
+}
+
+.clock7{
+    width: 288px;
+    height: 196px;
+    margin-bottom: 34px;
+    position: relative;
+    top: 4px;
+    left: 17px;
+}
+
+.clock8{
+    width: 288px;
+    height: 236px;
+    margin-bottom: 34px;
+    position: relative;
+    top: -17px;
+    left: 4px;
+}
+
+.clock9{
+    width: 269px;
+    height: 179px;
+    margin-bottom: 34px;
+    position: relative;
+    top: 23px;
+    left: 10px;
+}
+
+.clock10{
+    width: 321px;
+    height: 268px;
+    margin-bottom: 34px;
+    position: relative;
+    top: -33px;
+    left: -9px;
 }
 
 .info2{
+    width: 320px;
+    height: 154px;
+    position: relative;
+    top: 38px;
+    padding: 20px;
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.info3{
     width: 377px;
     height: 154px;
     position: relative;
-    top: 30px;
+    top: -8px;
     padding: 20px;
     gap: 12px;
 }
 
-.vostok{
+.info4{
+    width: 377px;
+    height: 154px;
+    position: relative;
+    top: -13px;
+    padding: 20px;
+    gap: 12px;
+}
+
+.info5{
+    width: 377px;
+    height: 154px;
+    position: relative;
+    top: -77px;
+    padding: 20px;
+}
+
+.info6{
+    width: 377px;
+    height: 154px;
+    position: relative;
+    top: -6px;
+    padding: 20px;
+}
+
+.info7{
+    width: 377px;
+    height: 154px;
+    position: relative;
+    top: -4px;
+    padding: 20px;
+}
+
+.info8{
+    width: 377px;
+    height: 154px;
+    position: relative;
+    top: -45px;
+    padding: 20px;
+}
+
+.info9{
+    width: 377px;
+    height: 154px;
+    position: relative;
+    top: 13px;
+    padding: 20px;
+}
+
+.info10{
+    width: 377px;
+    height: 154px;
+    position: relative;
+    top: -78px;
+    padding: 20px;
+}
+
+.vostok1{
     width: 337px;
     height: 22px;
     font-weight: 900;
     font-size: 18px;
+    letter-spacing: 0.4px;
+
+}
+
+.vostok2{
+    width: 337px;
+    height: 22px;
+    font-weight: 900;
+    font-size: 18px;
+    letter-spacing: 0.4px;
+    position: relative;
+    top: -9px;
+
+}
+
+.vostok3{
+    width: 337px;
+    height: 22px;
+    font-weight: 900;
+    font-size: 18px;
+    letter-spacing: 0.4px;
+    position: relative;
+    top: -9px;
+
+}
+
+.vostok4{
+    width: 337px;
+    height: 22px;
+    font-weight: 900;
+    font-size: 18px;
+    letter-spacing: 0.4px;
+    position: relative;
+    top: -9px;
+
+}
+
+.vostok5{
+    width: 337px;
+    height: 22px;
+    font-weight: 900;
+    font-size: 18px;
+    letter-spacing: 0.4px;
+    position: relative;
+    top: -9px;
+
+}
+
+.vostok6{
+    width: 337px;
+    height: 22px;
+    font-weight: 900;
+    font-size: 18px;
+    letter-spacing: 0.4px;
+    position: relative;
+    top: -9px;
+
+}
+
+.vostok7{
+    width: 337px;
+    height: 22px;
+    font-weight: 900;
+    font-size: 18px;
+    letter-spacing: 0.4px;
+    position: relative;
+    top: -9px;
+
+}
+
+.vostok8{
+    width: 337px;
+    height: 22px;
+    font-weight: 900;
+    font-size: 18px;
+    letter-spacing: 0.4px;
+    position: relative;
+    top: -9px;
+
+}
+
+.vostok9{
+    width: 337px;
+    height: 22px;
+    font-weight: 900;
+    font-size: 18px;
+    letter-spacing: 0.4px;
+    position: relative;
+    top: -9px;
 
 }
 
@@ -568,16 +1093,80 @@ span{
     font-size: 24px;
     position: absolute;
     top: -24px;
-    left: 74px;
-    color: rgba(0, 0, 0, 0.3);;
+    left: 72px;
+    color: rgba(0, 0, 0, 0.3);
 }
 
 .katalog_number{
     width: 89px;
     height: 29px;
     position: relative;
-    top: -15px;
-    gap: 6px;
+    top: -16px;
+    letter-spacing: 0.4px;
+}
+
+.katalog_number2{
+    width: 89px;
+    height: 29px;
+    position: relative;
+    top: -25px;
+    letter-spacing: 0.4px;
+}
+
+.katalog_number3{
+    width: 89px;
+    height: 29px;
+    position: relative;
+    top: -25px;
+    letter-spacing: 0.4px;
+}
+
+.katalog_number4{
+    width: 89px;
+    height: 29px;
+    position: relative;
+    top: -26px;
+    letter-spacing: 0.4px;
+}
+
+.katalog_number5{
+    width: 89px;
+    height: 29px;
+    position: relative;
+    top: -26px;
+    letter-spacing: 0.4px;
+}
+
+.katalog_number6{
+    width: 89px;
+    height: 29px;
+    position: relative;
+    top: -26px;
+    letter-spacing: 0.4px;
+}
+
+.katalog_number7{
+    width: 89px;
+    height: 29px;
+    position: relative;
+    top: -26px;
+    letter-spacing: 0.4px;
+}
+
+.katalog_number8{
+    width: 89px;
+    height: 29px;
+    position: relative;
+    top: -26px;
+    letter-spacing: 0.4px;
+}
+
+.katalog_number9{
+    width: 89px;
+    height: 29px;
+    position: relative;
+    top: -26px;
+    letter-spacing: 0.4px;
 }
 
 .korzina_div{
@@ -585,9 +1174,129 @@ span{
     align-items: center;
     justify-content: center;
     position: relative;
-    top: -10px;
-    width: 100px;
-    height: 25px;
+    top: -23px;
+    width: 115px;
+    height: 27px;
+    border: 2px solid black;
+    border-radius: 9px;
+    padding: 6px 20px;
+    gap: 10px;
+    text-transform: none;
+}
+
+.korzina_div2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -14px;
+    width: 115px;
+    height: 27px;
+    border: 2px solid black;
+    border-radius: 9px;
+    padding: 6px 20px;
+    gap: 10px;
+    text-transform: none;
+}
+
+.korzina_div3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -14px;
+    width: 115px;
+    height: 27px;
+    border: 2px solid black;
+    border-radius: 9px;
+    padding: 6px 20px;
+    gap: 10px;
+    text-transform: none;
+}
+
+.korzina_div4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -14px;
+    width: 115px;
+    height: 27px;
+    border: 2px solid black;
+    border-radius: 9px;
+    padding: 6px 20px;
+    gap: 10px;
+    text-transform: none;
+}
+
+.korzina_div5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -14px;
+    width: 115px;
+    height: 27px;
+    border: 2px solid black;
+    border-radius: 9px;
+    padding: 6px 20px;
+    gap: 10px;
+    text-transform: none;
+}
+
+.korzina_div6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -14px;
+    width: 115px;
+    height: 27px;
+    border: 2px solid black;
+    border-radius: 9px;
+    padding: 6px 20px;
+    gap: 10px;
+    text-transform: none;
+}
+
+.korzina_div7{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -15px;
+    width: 115px;
+    height: 27px;
+    border: 2px solid black;
+    border-radius: 9px;
+    padding: 6px 20px;
+    gap: 10px;
+    text-transform: none;
+}
+
+.korzina_div8{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -14px;
+    width: 115px;
+    height: 27px;
+    border: 2px solid black;
+    border-radius: 9px;
+    padding: 6px 20px;
+    gap: 10px;
+    text-transform: none;
+}
+
+.korzina_div9{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -14px;
+    width: 115px;
+    height: 27px;
     border: 2px solid black;
     border-radius: 9px;
     padding: 6px 20px;
@@ -613,40 +1322,15 @@ span{
     border: 1px solid rgba(0, 0, 0, 0);
 }
 
-.clock3{
-    width: 289px;
-    height: 226px;
-    margin-bottom: 1px;
-    position: relative;
-    left: 30px;
-}
-
-.info3{
-    width: 377px;
-    height: 154px;
-    position: relative;
-    top: -13px;
-    padding: 20px;
-    gap: 12px;
-}
-
-.clock6{
-    width: 289px;
-    height: 193px;
-    margin-bottom: 34px;
-    position: relative;
-    left: 30px;
-}
-
 .filter{
     display: flex;
     flex-direction: column;
     width: 264px;
     height: 436px;
     position: relative;
-    top: -2801px;
-    left: 130px;
-    gap: 2px;
+    top: -2823px;
+    left: 123px;
+    gap: 1px;
     color: black;
     text-transform: none;
 
@@ -655,6 +1339,7 @@ span{
 .vibor{
     font-size: 18px;
     font-weight: 400;
+    letter-spacing: 0.3px;
 }
 
 .active{
@@ -668,23 +1353,23 @@ span{
     height: 7px;
     position: absolute;
     top: 66px;
-    left: -16px;
+    left: -19px;
     background-color: black;
     border-radius: 50%;
 }
 
 .line{
-    width: 201px;
+    width: 200px;
     border: 1px solid rgba(235, 235, 235, 1);
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 
 }
 
 .cena{
     display: flex;
     width: 224px;
-    height: 66px;
+    height: 80px;
     gap: 10px;
 }
 
@@ -728,31 +1413,35 @@ span{
     height: 22px;
     font-weight: 400;
     font-size: 18px;
+    position: relative;
+    top: -8px;
+    letter-spacing: 0.1px;
 }
 
 .toggle{
     position: relative;
-    top: 7px;
-    width: 56px;
-    height: 30px;
+    top: -3px;
+    width: 62px;
+    height: 34px;
     background-color: rgba(217, 217, 217, 1);
     border-radius: 39px;
 }
 
 .ellipse{
-    width: 22px;
-    height: 22px;
+    width: 26px;
+    height: 26px;
     position: relative;
     border-radius: 50%;
     top: 4px;
     left: 4px;
     background-color: rgba(255, 255, 255, 1);
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.15);
 }
 
 .more_filters{
     position: relative;
-    top: 54px;
+    top: 51px;
+    left: 1px;
     width: 224px;
     height: 34px;
     display: flex;
@@ -768,10 +1457,46 @@ span{
 
 .filter_text{
     position: relative;
-    top: -15px;
+    top: -12px;
+    letter-spacing: 0.3px;
     width: 119px;
     height: 22px;
     font-weight: 400;
     font-size: 18px;
 
 }
+
+.section3{
+    display: flex;
+    position: absolute;
+    Width: 1683px;
+    Height: 249px;
+    Top: 2566px;
+    Left: 4px;
+    font-family: 'Inter';
+    font-weight: 900;
+    font-size: 207px;
+    text-align: center;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: rgba(156, 156, 156, 0.3);
+    z-index: 0;
+}
+
+.text_boxs{
+    border: 1px solid black;
+    display: flex;
+    width: 1600px;
+    height: 145px;
+    position: relative;
+    left: 2.5px;
+    padding-left: 130px;
+    padding-right: 130px;
+    gap: 38px;
+
+}
+
+/* .text_box{
+    width: 310px;
+    height: ;
+} */
