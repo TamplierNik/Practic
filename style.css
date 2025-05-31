@@ -126,6 +126,7 @@ header{
 
 main{
     width: 1600px;
+    height: 2760px;
     text-transform:Uppercase;
 }
 
@@ -670,80 +671,70 @@ span{
     width: 350px;
     height: 427px;
     border-radius: 9px;
-    background: rgb(243, 242, 242, 0.7);
-    backdrop-filter: blur(16px);  
+    background: rgb(243, 242, 242, 0.95);
 }
 
 .div_grid2{
     width: 350px;
     height: 427px;
     border-radius: 9px;
-    background: rgb(243, 242, 242, 0.7);
-    backdrop-filter: blur(16px);  
+    background: rgb(243, 242, 242, 0.95);
 }
 
 .div_grid3{
     width: 350px;
     height: 427px;
     border-radius: 9px;
-    background: rgb(243, 242, 242, 0.7);
-    backdrop-filter: blur(16px);  
+    background: rgb(243, 242, 242, 0.95);
 }
 
 .div_grid4{
     width: 350px;
     height: 427px;
     border-radius: 9px;
-    background: rgb(243, 242, 242, 0.7);
-    backdrop-filter: blur(16px);  
+    background: rgb(243, 242, 242, 0.95);
 }
 
 .div_grid5{
     width: 350px;
     height: 427px;
     border-radius: 9px;
-    background: rgb(243, 242, 242, 0.7);
-    backdrop-filter: blur(16px);  
+    background: rgb(243, 242, 242, 0.95);
 }
 
 .div_grid6{
     width: 350px;
     height: 427px;
     border-radius: 9px;
-    background: rgb(243, 242, 242, 0.7);
-    backdrop-filter: blur(16px);  
+    background: rgb(243, 242, 242, 0.95);
 }
 
 .div_grid7{
     width: 350px;
     height: 427px;
     border-radius: 9px;
-    background: rgb(243, 242, 242, 0.7);
-    backdrop-filter: blur(16px);  
+    background: rgb(243, 242, 242, 0.95);
 }
 
 .div_grid8{
     width: 350px;
     height: 427px;
     border-radius: 9px;
-    background: rgb(243, 242, 242, 0.7);
-    backdrop-filter: blur(16px);  
+    background: rgb(243, 242, 242, 0.95);
 }
 
 .div_grid9{
     width: 350px;
     height: 427px;
     border-radius: 9px;
-    background: rgb(243, 242, 242, 0.7);
-    backdrop-filter: blur(16px);  
+    background: rgb(243, 242, 242, 0.95);
 }
 
 .div_grid9{
     width: 350px;
     height: 427px;
     border-radius: 9px;
-    background: rgb(243, 242, 242, 0.7);
-    backdrop-filter: blur(16px);  
+    background: rgb(243, 242, 242, 0.95);
 }
 
 .star1{
@@ -1484,19 +1475,39 @@ span{
 }
 
 .text_boxs{
-    border: 1px solid black;
     display: flex;
     width: 1600px;
     height: 145px;
     position: relative;
-    left: 2.5px;
-    padding-left: 130px;
+    top: -1795px;
+    left: 4.5px;
+    padding-left: 120px;
     padding-right: 130px;
     gap: 38px;
 
 }
 
-/* .text_box{
+.text_box{
     width: 310px;
-    height: ;
-} */
+    height: 145px;
+}
+
+.big_text{
+    width: 310px;
+    height: 44px;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.small_text{
+    width: 300px;
+    height: 72px;
+    position: relative;
+    top: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: none;
+    color: rgba(80, 80, 80, 1);
+;
+}
