@@ -55,7 +55,7 @@ header{
     display: flex;
     position: relative;
     top: 45px;
-    left: -114px;
+    left: -25px;
     bottom: 34px;
     Width: 652px;
     Height: 22px;
@@ -77,9 +77,9 @@ header{
     position: relative;
     float: right;
     top: 45px;
-    right: 248px;
+    right: 69px;
     bottom: 60px;
-    Width: 257px;
+    width: 258px;
     Height: 23px;
 
 }
@@ -506,6 +506,10 @@ span{
     letter-spacing: 0.1px;
     left: -1.5px;
     color: black;
+}
+
+.div3 h1{
+    display: none;
 }
 
 .div3 img{
@@ -1313,6 +1317,17 @@ span{
     border: 1px solid rgba(0, 0, 0, 0);
 }
 
+.shadow{
+    display:none;
+    width: 152px;
+    height: 32px;
+    position: relative;
+    top: 14px;
+    left: 15px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 1);
+}
+
 .filter{
     display: flex;
     flex-direction: column;
@@ -1517,8 +1532,13 @@ span{
         width: 673px;
     }
     header{
-        padding-left: 27px;
+        padding-left: 0px;
+        padding-right: 0px;
         margin-top: -10px;
+    }
+
+    .full_name{
+        left: 27px;
     }
 
     .navigation{
@@ -1526,8 +1546,9 @@ span{
     }
 
     .account{
+        width: 175px;
         top: 44px;
-        right: -152.5px;
+        right: -138px;
     }
 
     .account img{
@@ -1538,14 +1559,19 @@ span{
         display: none;
     }
 
+    .wallet{
+        position: relative;
+        top:1px;
+    }
+
     .wallet img{
         display: flex;
     }
 
     .burger_menu{
         position: relative;
-        top: 45px;
-        right: 76px;
+        top: 46px;
+        right: 49px;
         float: right;
         display: flex;
         width: 32px;
@@ -1566,8 +1592,13 @@ span{
         height: 3px;
         background-color: black;
     }
+    
+    main{
+        width: 100%;
+    }
 
     .section1{
+        width: 702px;
         font-size: 83px;
         Top: -39px;
         Left: -27px;
@@ -1674,7 +1705,7 @@ span{
     }
 
     .button_buy{
-        top: -180px;
+        top: -179px;
         width: 99px;
     }
 
@@ -1748,32 +1779,300 @@ span{
         left: 8px;
     }
 
-
-
-    
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
     .section2{
-        Top: -356px;
-    }
+        width: 422px;
+        height: 200px;
+        Top: -567px;
+        Left: 35px;
+        font-size: 84px;
+        letter-spacing: 3px;
 
-    .katalog{
-        top: -573px;
     }
 
     .filter{
-        top: -823px;
+        top: -2031px;
+        height: 50px;
+        flex-direction: row;
+        left: 36px;
+        gap: 23px;
+        
     }
+
+    .point_active{
+        top: 3px;
+        left: 168px;
+    }
+
+    .line{
+        display: none;
+    }
+
+    .cena{
+        display:none;
+    }
+
+    .sskidka_box{
+        display: none;
+    }
+
+    .filter_box{
+        display: flex;
+        position: relative;
+        top: -47px;
+        left: 36px;
+        width: 36px;
+        height: 36px;
+        gap: 10px;
+        border-radius: 6px;
+        background-color: rgba(234, 234, 234, 1);
+        justify-content: center;
+        align-items: center;;
+    }
+    .img_filter{
+        width: 18px;
+        height: 17px;
+    }
+
+    .filter_text{
+        display: none;
+    }
+
+    .katalog{
+        position: relative;
+        top: -666px;
+        left: 21px;
+        width: 612px;
+        height: 1310px;
+        display: grid;
+        grid-template-columns: 300px 300px;
+        grid-template-rows: 430px 430px;
+        grid-template-areas:
+            'win1 win2'
+            'win3 win4'
+            'win5 win6';
+        gap: 6px 12px;
+        z-index: 10;
+    }
+
+    .div_grid1{
+        width: 300px;
+        height: 427px;
+    }
+
+    .procent{
+        top: 5px;
+        left: 6px;
+        font-weight: 800;
+    }
+
+    .sskidka{
+        width: 55px;
+        height: 32px;
+        top: -12px;
+        left: -2px;
+    }
+
+    .star1{
+        left: 254px;
+        top: -165px;
+    }
+
+    .clock2{
+        width: 270px;
+        height: 178px;
+        top: 23px;
+        left: -15px;
+    }
+
+    .korzina_div{
+        top: -22px;
+        height: 27px;
+    }
+
+    .vostok1{
+        position: relative;
+        top: 1px;
+    }
+
+    .div_grid2{
+        width: 300px;
+        height: 427px;
+    }
+
+    .clock3{
+        width: 289px;
+        height: 240px;
+        left: 10px;
+        top: -44px;
+    }
+
+    .star2{
+        left: 256px;
+        top: -11px;
+    }
+
+    .info3{
+        width: 260px;
+        top: -43px;
+    }
+    .vostok2{
+        width: 280px;
+    }
+
+    .katalog_number2{
+        top:-26px;
+    }
+
+    .div_grid3{
+        width: 300px;
+    }
+
+    .star3{
+        left: 256px;
+        top: -11px;
+    }
+
+    .clock4{
+        width: 290px;
+        height: 238px;
+        top: -44px;
+    }
+
+    .info4{
+        top: -40px;
+    }
+
+    .katalog_number3{
+        top:-26px;
+    }
+
+    .div_grid4{
+        width: 300px;
+    }
+
+    .star4{
+        left: 256.5px;
+    }
+
+    .vostok4{
+        width: 280px;
+    }
+
+    .clock5{
+        content: url("./images/clock5.png");
+        width: 289px;
+        height: 195px;
+        top: -15px;
+        left: 10px;
+    }
+
+    .info5{
+        width: 260px;
+        top:3px;
+    }
+
+    .div_grid5{
+        width: 300px;
+    }
+
+    .shadow{
+        display: block;
+        width: 149px;
+        height: 30px;
+        top: 2px;
+        left: 5px;
+    }
+
+    .star5{
+        left: 256.5px;
+        top: -12.1px;
+    }
+
+    .clock6{
+        width: 290px;
+        height: 195px;
+        margin-bottom: 11px;
+        content: url("./images/clock6.png");
+        position: relative;
+        top: -21px;
+        left: 18px;
+    }
+
+    .div_grid6{
+        width: 300px;
+    }
+
+    .akcia2{
+        display: none;
+    }
+
+    .star6{
+        left: 256.5px;
+        top: 22px;
+    }
+
+    .clock7{
+        width: 288px;
+        height: 238px;
+        content: url("./images/clock.png");
+        margin-bottom: -2px;
+        top: -10px;
+        left: 11px;
+    }
+
+    .info7{
+        width: 260px;
+    }
+
+    .vostok6{
+        width: 280px;
+    }
+
+
+    .div_grid7{
+        display: none;
+    }
+    .div_grid8{
+        display: none;
+    }
+    .div_grid9{
+        display: none;
+    }
+
+    .section3{
+        Width: 638px;
+        Height: 96px;
+        Top: 2830px;
+        Left: 19px;
+        font-size: 80px;
+        letter-spacing: 3px;
+    }
+
+    .text_boxs{
+    width: 635px;
+    height: 305px;
+    position: relative;
+    top: -625px;
+    left: 0px;
+    padding-left: 28px;
+    padding-right: 0px;
+    gap: 15px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
