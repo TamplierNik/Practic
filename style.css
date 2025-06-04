@@ -1529,15 +1529,18 @@ span{
     color: rgba(80, 80, 80, 1);
 }
 
-@media (width:673px) {
+@media (max-width:673px) {
 
     body{
+        left:0px;
         width: 673px;
     }
     header{
         padding-left: 0px;
         padding-right: 0px;
         margin-top: -10px;
+        width: 673px;
+        left: 2px;
     }
 
     .full_name{
