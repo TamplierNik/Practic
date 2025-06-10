@@ -4,102 +4,107 @@
 //     masive[3] = false
 
 const catalog_items = [
-    {
-        image: src="./images/clock2.png", 
+    {   
+        id: 1,
+        image: "./images/clock2.png", 
         title: 'Амфибия 2643', 
         price: '9 800₽', 
         is_favourite: true
     },
     {
+        id: 2,
+        image: "./images/katalog_clock.png", 
+        title: 'Амфибия 1524', 
+        price: '10 800₽', 
+        is_favourite: false
+    },
+    {
+        id: 3,
         image: "./images/clock3.png", 
         title: 'Амфибия 1524', 
         price: '10 800₽', 
         is_favourite: false
     },
     {
+        id: 4,
+        image: "./images/clock4.png", 
+        title: 'Амфибия 1524', 
+        price: '10 800₽', 
+        is_favourite: false
+    },
+    {
+        id: 5,
+        image: "./images/clock5.png", 
+        title: 'Амфибия 1524', 
+        price: '10 800₽', 
+        is_favourite: false
+    },
+    {
+        id: 6,
+        image: "./images/clock6.png", 
+        title: 'Амфибия 1524', 
+        price: '10 800₽', 
+        is_favourite: false
+    },
+    {
+        id: 7,
         image: "./images/clock3.png", 
         title: 'Амфибия 1524', 
         price: '10 800₽', 
         is_favourite: false
     },
     {
-        image: "./images/clock3.png", 
+        id: 8,
+        image: "./images/clock2.png", 
         title: 'Амфибия 1524', 
         price: '10 800₽', 
         is_favourite: false
     },
     {
-        image: "./images/clock3.png", 
+        id: 9,
+        image: "./images/clock9.png", 
         title: 'Амфибия 1524', 
         price: '10 800₽', 
         is_favourite: false
-    },
-    {
-        image: "./images/clock3.png", 
-        title: 'Амфибия 1524', 
-        price: '10 800₽', 
-        is_favourite: false
-    },
-    {
-        image: "./images/clock3.png", 
-        title: 'Амфибия 1524', 
-        price: '10 800₽', 
-        is_favourite: false
-    },
-    {
-        image: "./images/clock3.png", 
-        title: 'Амфибия 1524', 
-        price: '10 800₽', 
-        is_favourite: false
-    },
-    {
-        image: "./images/clock3.png", 
-        title: 'Амфибия 1524', 
-        price: '10 800₽', 
-        is_favourite: false
-    },
+    }
 ]
 
+function renderCatalog(products) {
+    const catalog = document.getElementById('catalog');
+    catalog.innerHTML = '';
 
-console.log(catalog_items)
+    products.forEach(product => {
+        const card = document.createElement('div');
+        card.className = 'div_grid';
 
-const product = document.querySelectorAll(".div_grid")
+        const favoriteIcon = catalog_items.is_favorite ? '★' : '☆';
 
-// function changeALL(){
-    for(let i=0;i<=catalog_items.length;i++){
-    
-        function renderCatalog(products) {
-        const catalog = document.getElementById('catalog');
-        catalog.innerHTML = '<div class="div_grid" style="display: none;"></div>';
+        card.innerHTML = `
+        <img class="star" data-id="${product.id}" style="cursor: pointer; font-size: 20px;" 
+        src="${product.is_favourite}">
+        <img class="clock2" src="${product.image}" alt="${product.title}">
+        <h3 class="vostok">${product.title}</h3>
+        <p class="katalog_number">${product.price}</p>
+        <button class="korzina_div"><h1 class="korzina">Купить</h1></button>`;
 
-        catalog_items.forEach(_products => {
-            const card = document.createElement('div');
-            card.className = 'div_grid';
+        catalog.appendChild(card);
+    });
 
-            card.innerHTML = 
-            '<img class="star" data-id="${product.id}" style="cursor: pointer; font-size: 20px;" ${favoriteIcon}>'
-            '<img class="clock2" src="${catalog_items.image}" alt="${catalog_items.title}" class="clock2">'
-            '<h3 class="vostok">${catalog_items.title}</h3>'
-            '<p class="katalog_number">${catalog_items.price} ₽</p>'
-            '<button class="korzina_div"><h1 class="korzina">Купить</h1></button>';
-
-            catalog.appendChild(card);
-        });
-
-        // Назначаем обработчики после рендера
-        document.querySelectorAll('star').forEach(icon => {
-            icon.addEventListener('click', function () {
+    // Назначаем обработчики после рендера
+    document.querySelectorAll('.star').forEach(icon => {
+        icon.addEventListener('click', function () {
             const id = parseInt(this.dataset.id);
             const product = products.find(p => p.id === id);
-            product.is_favourite = !product.is_favourite;
-            renderCatalog(products); // перерисовываем
-            });
+            if (product) {
+                product.is_favourite = !product.is_favourite;
+                renderCatalog(products); // перерисовываем
+            }
         });
-        }
-
-        renderCatalog(product);
+    });
     }
-// }
+
+    renderCatalog(catalog_items);
+
 
 
 
