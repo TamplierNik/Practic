@@ -5,8 +5,8 @@
 
 const catalog_items = [
     {
-        image: "./images/clock2.png", 
-        title: 'Амфибия 2043', 
+        image: src="./images/clock2.png", 
+        title: 'Амфибия 2643', 
         price: '9 800₽', 
         is_favourite: true
     },
@@ -59,30 +59,29 @@ const catalog_items = [
         is_favourite: false
     },
 ]
+
+
 console.log(catalog_items)
 
-const product = document.querySelectorAll("div_catalog")
+const product = document.querySelectorAll(".div_grid")
 
 // function changeALL(){
     for(let i=0;i<=catalog_items.length;i++){
     
         function renderCatalog(products) {
         const catalog = document.getElementById('catalog');
-        catalog.innerHTML = '<div class="katalog"></div>';
+        catalog.innerHTML = '<div class="div_grid" style="display: none;"></div>';
 
-        products.forEach(product => {
+        catalog_items.forEach(_products => {
             const card = document.createElement('div');
-            card.className = 'div_grid1';
-
-            const favoriteIcon = product.is_favourite ? './images/Icon_star.png' : './images/Icon_star_empty.png';
+            card.className = 'div_grid';
 
             card.innerHTML = 
-            '<div class="star" data-id="${product.id}" style="cursor: pointer; font-size: 20px;">${favoriteIcon}</div>'
-            '<img src="${catalog_items.image}" alt="${catalog_items.title}" class="clock2">'
-            '<h3 class="vostok1">${catalog_items.title}</h3>'
+            '<img class="star" data-id="${product.id}" style="cursor: pointer; font-size: 20px;" ${favoriteIcon}>'
+            '<img class="clock2" src="${catalog_items.image}" alt="${catalog_items.title}" class="clock2">'
+            '<h3 class="vostok">${catalog_items.title}</h3>'
             '<p class="katalog_number">${catalog_items.price} ₽</p>'
-            '<button class="korzina_div"><h1 class="korzina">Купить</h1></button>'
-            ;
+            '<button class="korzina_div"><h1 class="korzina">Купить</h1></button>';
 
             catalog.appendChild(card);
         });

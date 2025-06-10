@@ -675,313 +675,86 @@ span{
 
 }
 
-.div_grid1{
+.div_grid{
     width: 350px;
     height: 427px;
     border-radius: 9px;
     background: rgb(243, 242, 242, 0.95);
 }
 
-.div_grid2{
-    width: 350px;
-    height: 427px;
-    border-radius: 9px;
-    background: rgb(243, 242, 242, 0.95);
-}
-
-.div_grid3{
-    width: 350px;
-    height: 427px;
-    border-radius: 9px;
-    background: rgb(243, 242, 242, 0.95);
-}
-
-.div_grid4{
-    width: 350px;
-    height: 427px;
-    border-radius: 9px;
-    background: rgb(243, 242, 242, 0.95);
-}
-
-.div_grid5{
-    width: 350px;
-    height: 427px;
-    border-radius: 9px;
-    background: rgb(243, 242, 242, 0.95);
-}
-
-.div_grid6{
-    width: 350px;
-    height: 427px;
-    border-radius: 9px;
-    background: rgb(243, 242, 242, 0.95);
-}
-
-.div_grid7{
-    width: 350px;
-    height: 427px;
-    border-radius: 9px;
-    background: rgb(243, 242, 242, 0.95);
-}
-
-.div_grid8{
-    width: 350px;
-    height: 427px;
-    border-radius: 9px;
-    background: rgb(243, 242, 242, 0.95);
-}
-
-.div_grid9{
-    width: 350px;
-    height: 427px;
-    border-radius: 9px;
-    background: rgb(243, 242, 242, 0.95);
-}
-
-.div_grid9{
-    width: 350px;
-    height: 427px;
-    border-radius: 9px;
-    background: rgb(243, 242, 242, 0.95);
-}
-
-.star1{
+.star{
     width: 23px;
     height: 22px;
     color: rgba(0, 0, 0);
     position: relative;
-    left: 296px;
-    top: -164px;
-
-}
-
-.star2{
-    width: 23px;
-    height: 22px;
-    color: rgba(0, 0, 0);
-    position: relative;
-    left: 298.4px;
-    top: -220px;
-}
-
-.star3{
-    width: 23px;
-    height: 22px;
-    color: rgba(0, 0, 0);
-    position: relative;
-    left: 298.4px;
-    top: -225px;
-}
-
-.star4{
-    width: 23px;
-    height: 22px;
-    color: rgba(0, 0, 0);
-    position: relative;
-    left: 298.5px;
-    top: -11.1px;
-}
-
-.star5{
-    width: 23px;
-    height: 22px;
-    color: rgba(0, 0, 0);
-    position: relative;
-    left: 298.5px;
-    top: -219.1px;
-}
-
-.star6{
-    width: 23px;
-    height: 22px;
-    color: rgba(0, 0, 0);
-    position: relative;
-    left: 298.5px;
-    top: -217.1px;
-}
-
-.star7{
-    width: 23px;
-    height: 22px;
-    color: rgba(0, 0, 0);
-    position: relative;
-    left: 298.5px;
-    top: -259px;
-}
-
-.star8{
-    width: 23px;
-    height: 22px;
-    color: rgba(0, 0, 0);
-    position: relative;
-    left: 295.5px;
-    top: -198.1px
-}
-
-.star9{
-    width: 23px;
-    height: 22px;
-    color: rgba(0, 0, 0);
-    position: relative;
-    left: 298.5px;
-    top: -290.1px;
+    left: 298px;
+    top: -168px;
 }
 
 .clock2{
-    width: 271px;
+    width: 280px;
     height: 179px;
     position: relative;
-    top: 23px;
-    left: 9px;
+    top: 26px;
+    left: 11px;
 }
 
-.clock3{
-    width: 289px;
-    height: 231px;
+#clock2{
+    margin-bottom: 2px;
+}
+
+#clock4{
+    width: 298px;
+    height: 214px;
+    top: 8px;
+    left: -6px;
+    margin-bottom: -36px;
+}
+
+#clock5{
+    width: 283px;
+    height: 183px;
+    top: 20px;
+    left: 13px;
+    margin-bottom: -5px;
+}
+
+#clock6{
+    width: 287px;
+    height: 183px;
+    top: 17px;
+    left: 18px;
+    margin-bottom: -3px;
+}
+
+#clock7{
+    margin-bottom: -1px;
+}
+
+#clock8{
     margin-bottom: 1px;
-    position: relative;
-    left: 7px;
-    top: -13px;
 }
 
-.clock4{
-    width: 288px;
-    height: 237px;
-    position: relative;
-    top: -17px;
-    left: 4px;
-}
-
-.clock5{
-    width: 338px;
-    height: 275px;
-    position: relative;
-    top: -67px;
-}
-
-.clock6{
-    width: 288px;
-    height: 196px;
-    margin-bottom: 34px;
-    position: relative;
-    top: 11px;
-    left: 8px;
-}
-
-.clock7{
-    width: 288px;
-    height: 196px;
-    margin-bottom: 34px;
-    position: relative;
-    top: 4px;
-    left: 17px;
-}
-
-.clock8{
-    width: 288px;
-    height: 236px;
-    margin-bottom: 34px;
-    position: relative;
-    top: -17px;
-    left: 4px;
-}
-
-.clock9{
-    width: 269px;
-    height: 179px;
-    margin-bottom: 34px;
-    position: relative;
-    top: 23px;
-    left: 10px;
-}
-
-.clock10{
-    width: 321px;
-    height: 268px;
-    margin-bottom: 34px;
-    position: relative;
-    top: -33px;
-    left: -9px;
+#clock9{
+    width: 322px;
+    height: 266px;
+    top: -32px;
+    left: -10px;
+    margin-bottom: -88px;
 }
 
 .info2{
     width: 320px;
     height: 154px;
     position: relative;
-    top: 38px;
+    top: 37px;
     padding: 20px;
     display: flex;
     gap: 12px;
     flex-wrap: wrap;
 }
 
-.info3{
-    width: 377px;
-    height: 154px;
-    position: relative;
-    top: -8px;
-    padding: 20px;
-    gap: 12px;
-}
-
-.info4{
-    width: 377px;
-    height: 154px;
-    position: relative;
-    top: -13px;
-    padding: 20px;
-    gap: 12px;
-}
-
-.info5{
-    width: 377px;
-    height: 154px;
-    position: relative;
-    top: -77px;
-    padding: 20px;
-}
-
-.info6{
-    width: 377px;
-    height: 154px;
-    position: relative;
-    top: -6px;
-    padding: 20px;
-}
-
-.info7{
-    width: 377px;
-    height: 154px;
-    position: relative;
-    top: -4px;
-    padding: 20px;
-}
-
-.info8{
-    width: 377px;
-    height: 154px;
-    position: relative;
-    top: -45px;
-    padding: 20px;
-}
-
-.info9{
-    width: 377px;
-    height: 154px;
-    position: relative;
-    top: 13px;
-    padding: 20px;
-}
-
-.info10{
-    width: 377px;
-    height: 154px;
-    position: relative;
-    top: -78px;
-    padding: 20px;
-}
-
-.vostok1{
+.vostok{
     width: 337px;
     height: 22px;
     font-weight: 900;
@@ -990,93 +763,6 @@ span{
 
 }
 
-.vostok2{
-    width: 337px;
-    height: 22px;
-    font-weight: 900;
-    font-size: 18px;
-    letter-spacing: 0.4px;
-    position: relative;
-    top: -9px;
-
-}
-
-.vostok3{
-    width: 337px;
-    height: 22px;
-    font-weight: 900;
-    font-size: 18px;
-    letter-spacing: 0.4px;
-    position: relative;
-    top: -9px;
-
-}
-
-.vostok4{
-    width: 337px;
-    height: 22px;
-    font-weight: 900;
-    font-size: 18px;
-    letter-spacing: 0.4px;
-    position: relative;
-    top: -9px;
-
-}
-
-.vostok5{
-    width: 337px;
-    height: 22px;
-    font-weight: 900;
-    font-size: 18px;
-    letter-spacing: 0.4px;
-    position: relative;
-    top: -9px;
-
-}
-
-.vostok6{
-    width: 337px;
-    height: 22px;
-    font-weight: 900;
-    font-size: 18px;
-    letter-spacing: 0.4px;
-    position: relative;
-    top: -9px;
-
-}
-
-.vostok7{
-    width: 337px;
-    height: 22px;
-    font-weight: 900;
-    font-size: 18px;
-    letter-spacing: 0.4px;
-    position: relative;
-    top: -9px;
-
-}
-
-.vostok8{
-    width: 337px;
-    height: 22px;
-    font-weight: 900;
-    font-size: 18px;
-    letter-spacing: 0.4px;
-    position: relative;
-    top: -9px;
-
-}
-
-.vostok9{
-    width: 337px;
-    height: 22px;
-    font-weight: 900;
-    font-size: 18px;
-    letter-spacing: 0.4px;
-    position: relative;
-    top: -9px;
-
-}
 
 .katalog_price{
     width: 67px;
@@ -1104,196 +790,12 @@ span{
     letter-spacing: 0.4px;
 }
 
-.katalog_number2{
-    width: 89px;
-    height: 29px;
-    position: relative;
-    top: -25px;
-    letter-spacing: 0.4px;
-}
-
-.katalog_number3{
-    width: 89px;
-    height: 29px;
-    position: relative;
-    top: -25px;
-    letter-spacing: 0.4px;
-}
-
-.katalog_number4{
-    width: 89px;
-    height: 29px;
-    position: relative;
-    top: -26px;
-    letter-spacing: 0.4px;
-}
-
-.katalog_number5{
-    width: 89px;
-    height: 29px;
-    position: relative;
-    top: -26px;
-    letter-spacing: 0.4px;
-}
-
-.katalog_number6{
-    width: 89px;
-    height: 29px;
-    position: relative;
-    top: -26px;
-    letter-spacing: 0.4px;
-}
-
-.katalog_number7{
-    width: 89px;
-    height: 29px;
-    position: relative;
-    top: -26px;
-    letter-spacing: 0.4px;
-}
-
-.katalog_number8{
-    width: 89px;
-    height: 29px;
-    position: relative;
-    top: -26px;
-    letter-spacing: 0.4px;
-}
-
-.katalog_number9{
-    width: 89px;
-    height: 29px;
-    position: relative;
-    top: -26px;
-    letter-spacing: 0.4px;
-}
-
 .korzina_div{
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
     top: -23px;
-    width: 115px;
-    height: 27px;
-    border: 2px solid black;
-    border-radius: 9px;
-    padding: 6px 20px;
-    gap: 10px;
-    text-transform: none;
-}
-
-.korzina_div2{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    top: -14px;
-    width: 115px;
-    height: 27px;
-    border: 2px solid black;
-    border-radius: 9px;
-    padding: 6px 20px;
-    gap: 10px;
-    text-transform: none;
-}
-
-.korzina_div3{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    top: -14px;
-    width: 115px;
-    height: 27px;
-    border: 2px solid black;
-    border-radius: 9px;
-    padding: 6px 20px;
-    gap: 10px;
-    text-transform: none;
-}
-
-.korzina_div4{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    top: -14px;
-    width: 115px;
-    height: 27px;
-    border: 2px solid black;
-    border-radius: 9px;
-    padding: 6px 20px;
-    gap: 10px;
-    text-transform: none;
-}
-
-.korzina_div5{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    top: -14px;
-    width: 115px;
-    height: 27px;
-    border: 2px solid black;
-    border-radius: 9px;
-    padding: 6px 20px;
-    gap: 10px;
-    text-transform: none;
-}
-
-.korzina_div6{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    top: -14px;
-    width: 115px;
-    height: 27px;
-    border: 2px solid black;
-    border-radius: 9px;
-    padding: 6px 20px;
-    gap: 10px;
-    text-transform: none;
-}
-
-.korzina_div7{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    top: -15px;
-    width: 115px;
-    height: 27px;
-    border: 2px solid black;
-    border-radius: 9px;
-    padding: 6px 20px;
-    gap: 10px;
-    text-transform: none;
-}
-
-.korzina_div8{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    top: -14px;
-    width: 115px;
-    height: 27px;
-    border: 2px solid black;
-    border-radius: 9px;
-    padding: 6px 20px;
-    gap: 10px;
-    text-transform: none;
-}
-
-.korzina_div9{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    top: -14px;
     width: 115px;
     height: 27px;
     border: 2px solid black;
@@ -1787,7 +1289,7 @@ span{
 
     .section2{
         width: 422px;
-        height: 200px;
+        height: 204px;
         Top: -567px;
         Left: 35px;
         font-size: 84px;
@@ -1860,7 +1362,7 @@ span{
         z-index: 10;
     }
 
-    .div_grid1{
+    .div_grid{
         width: 300px;
         height: 427px;
     }
@@ -1878,16 +1380,29 @@ span{
         left: -2px;
     }
 
-    .star1{
-        left: 254px;
-        top: -165px;
+    .star{
+        left: 257px;
+        top: -11px;
+    }
+    
+    #star1{
+        left: 255px;
+        top: -8px;
+    }
+
+    #star6{
+        left: 257px;
+        top: 23px;
     }
 
     .clock2{
-        width: 270px;
+        width: 278px;
         height: 178px;
-        top: 23px;
-        left: -15px;
+        top: 0px;
+        left: 15px;
+    }
+    .info2{
+        top:10px;
     }
 
     .korzina_div{
@@ -1895,153 +1410,64 @@ span{
         height: 27px;
     }
 
-    .vostok1{
+    .vostok{
         position: relative;
         top: 1px;
     }
 
-    .div_grid2{
-        width: 300px;
-        height: 427px;
-    }
-
-    .clock3{
-        width: 289px;
-        height: 240px;
-        left: 10px;
-        top: -44px;
-    }
-
-    .star2{
-        left: 256px;
-        top: -11px;
-    }
-
-    .info3{
-        width: 260px;
-        top: -43px;
-    }
-    .vostok2{
+    #clock2{
         width: 280px;
+        top: 0px;
+        left: 13px;
     }
 
-    .katalog_number2{
-        top:-26px;
-    }
-
-    .div_grid3{
-        width: 300px;
-    }
-
-    .star3{
-        left: 256px;
-        top: -11px;
-    }
-
-    .clock4{
-        width: 290px;
-        height: 238px;
-        top: -44px;
-    }
-
-    .info4{
-        top: -40px;
-    }
-
-    .katalog_number3{
-        top:-26px;
-    }
-
-    .div_grid4{
-        width: 300px;
-    }
-
-    .star4{
-        left: 256.5px;
-    }
-
-    .vostok4{
-        width: 280px;
-    }
-
-    .clock5{
+    #clock4 {
         content: url("./images/clock5.png");
-        width: 289px;
-        height: 195px;
-        top: -15px;
-        left: 10px;
+        width: 283px;
+        height: 184px;
+        top: -7px;
+        left: 15px;
+        margin-bottom: -6px;
     }
 
-    .info5{
-        width: 260px;
-        top:3px;
-    }
-
-    .div_grid5{
-        width: 300px;
+    #clock5{
+        content: url("./images/clock6.png");
+        width: 287px;
+        height: 183px;
+        top: -12px;
+        left: 20px;
     }
 
     .shadow{
         display: block;
         width: 149px;
         height: 30px;
-        top: 2px;
+        top: 3px;
         left: 5px;
     }
 
-    .star5{
-        left: 256.5px;
-        top: -12.1px;
-    }
-
-    .clock6{
-        width: 290px;
-        height: 195px;
-        margin-bottom: 11px;
-        content: url("./images/clock6.png");
+    #clock6{
+        width: 279px;
+        height: 178px;
+        margin-bottom: 32px;
+        content: url("./images/katalog_clock.png");
         position: relative;
-        top: -21px;
-        left: 18px;
-    }
-
-    .div_grid6{
-        width: 300px;
+        top: 34px;
+        left: 14px;
     }
 
     .akcia2{
         display: none;
     }
 
-    .star6{
-        left: 256.5px;
-        top: 22px;
-    }
 
-    .clock7{
-        width: 288px;
-        height: 238px;
-        content: url("./images/clock.png");
-        margin-bottom: -2px;
-        top: -10px;
-        left: 11px;
-    }
-
-    .info7{
-        width: 260px;
-    }
-
-    .vostok6{
-        width: 280px;
-    }
-
-
-    .div_grid7{
+    #div7{
         display: none;
     }
-    .div_grid8{
+    #div8{
         display: none;
     }
-    .div_grid9{
+    #div9{
         display: none;
     }
 
