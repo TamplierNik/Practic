@@ -689,14 +689,16 @@ span{
     position: relative;
     left: 298px;
     top: -168px;
+    z-index: 10;
 }
 
 .clock2{
     width: 280px;
     height: 179px;
     position: relative;
-    top: 26px;
+    top: 57px;
     left: 11px;
+    margin-bottom:33px;
 }
 
 #clock2{
@@ -704,43 +706,35 @@ span{
 }
 
 #clock4{
-    width: 298px;
+    width: 297px;
     height: 214px;
-    top: 8px;
+    top: 41px;
     left: -6px;
-    margin-bottom: -36px;
+    margin-bottom: -2px;
 }
 
 #clock5{
     width: 283px;
     height: 183px;
-    top: 20px;
+    top: 54px;
     left: 13px;
-    margin-bottom: -5px;
+    margin-bottom: 29px;
 }
 
 #clock6{
     width: 287px;
     height: 183px;
-    top: 17px;
+    top: 49px;
     left: 18px;
-    margin-bottom: -3px;
-}
-
-#clock7{
-    margin-bottom: -1px;
-}
-
-#clock8{
-    margin-bottom: 1px;
+    margin-bottom: 29px;
 }
 
 #clock9{
     width: 322px;
     height: 266px;
-    top: -32px;
+    top: 2px;
     left: -10px;
-    margin-bottom: -88px;
+    margin-bottom: -54px;
 }
 
 .info2{
@@ -765,10 +759,11 @@ span{
 
 
 .katalog_price{
-    width: 67px;
+    width: 100px;
     height: 29px;
     font-weight: 400;
     font-size: 24px;
+    margin-bottom: 50px;
 }
 
 .katalog_rubl{
@@ -795,9 +790,9 @@ span{
     align-items: center;
     justify-content: center;
     position: relative;
-    top: -23px;
-    width: 115px;
-    height: 27px;
+    top: -22px;
+    width: 159px;
+    height: 42px;
     border: 2px solid black;
     border-radius: 9px;
     padding: 6px 20px;
@@ -806,11 +801,13 @@ span{
 }
 
 .korzina{
-    width: 79px;
+    width: 80px;
     height: 19px;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 16px;
     color: black;
+    position: relative;
+    top: 1px;
 }
 
 .akcia_none{

@@ -7,65 +7,70 @@ const catalog_items = [
     {   
         id: 1,
         image: "./images/clock2.png", 
-        title: 'Амфибия 2643', 
-        price: '9 800₽', 
-        is_favourite: true
+        title: 'восток  амфибия 2403', 
+        price: '9 800', 
+        is_favourite: false,
     },
     {
         id: 2,
         image: "./images/katalog_clock.png", 
-        title: 'Амфибия 1524', 
-        price: '10 800₽', 
-        is_favourite: false
+        title: 'восток  амфибия 2403', 
+        price: '9 800', 
+        is_favourite: false,
+        id_product: 'clock3'
     },
     {
         id: 3,
         image: "./images/clock3.png", 
-        title: 'Амфибия 1524', 
-        price: '10 800₽', 
+        title: 'восток  амфибия 2403', 
+        price: '9 800', 
         is_favourite: false
     },
     {
         id: 4,
         image: "./images/clock4.png", 
-        title: 'Амфибия 1524', 
-        price: '10 800₽', 
-        is_favourite: false
+        title: 'восток  амфибия 2403', 
+        price: '9 800', 
+        is_favourite: false,
+        id_product: 'clock4'
     },
     {
         id: 5,
         image: "./images/clock5.png", 
-        title: 'Амфибия 1524', 
-        price: '10 800₽', 
-        is_favourite: false
+        title: 'восток  амфибия 2403', 
+        price: '9 800', 
+        is_favourite: false,
+        id_product: 'clock5'
     },
     {
         id: 6,
         image: "./images/clock6.png", 
-        title: 'Амфибия 1524', 
-        price: '10 800₽', 
-        is_favourite: false
+        title: 'восток  амфибия 2403', 
+        price: '9 800', 
+        is_favourite: false,
+        id_product: 'clock6'
     },
     {
         id: 7,
         image: "./images/clock3.png", 
-        title: 'Амфибия 1524', 
-        price: '10 800₽', 
-        is_favourite: false
+        title: 'восток  амфибия 2403', 
+        price: '9 800', 
+        is_favourite: false,
     },
     {
         id: 8,
         image: "./images/clock2.png", 
-        title: 'Амфибия 1524', 
-        price: '10 800₽', 
-        is_favourite: false
+        title: 'восток  амфибия 2403', 
+        price: '9 800', 
+        is_favourite: false,
     },
     {
         id: 9,
         image: "./images/clock9.png", 
-        title: 'Амфибия 1524', 
-        price: '10 800₽', 
-        is_favourite: false
+        title: 'восток  амфибия 2403', 
+        price: '9 800', 
+        is_favourite: false,
+        id_product: 'clock9'
     }
 ]
 
@@ -77,15 +82,28 @@ function renderCatalog(products) {
         const card = document.createElement('div');
         card.className = 'div_grid';
 
-        const favoriteIcon = catalog_items.is_favorite ? '★' : '☆';
+        const favoriteIcon = product.is_favourite ? './images/Icon_star.png' : './images/Icon_star_empty.png';
 
         card.innerHTML = `
         <img class="star" data-id="${product.id}" style="cursor: pointer; font-size: 20px;" 
-        src="${product.is_favourite}">
-        <img class="clock2" src="${product.image}" alt="${product.title}">
-        <h3 class="vostok">${product.title}</h3>
-        <p class="katalog_number">${product.price}</p>
-        <button class="korzina_div"><h1 class="korzina">Купить</h1></button>`;
+        src="${favoriteIcon}">
+
+        <img class="clock2" id="${product.id_product}" src="${product.image}" alt="${product.title}">
+        
+        <div class="info2">
+            <div>
+                <h1 class="vostok">${product.title}</h1>
+
+                <div class="katalog_number">
+                    <p class="katalog_price">${product.price}</p>
+                    <p class="katalog_rubl">₽</p>
+                </div>
+            </div>
+            
+            <button class="korzina_div">
+                <h1 class="korzina">В корзину</h1>
+            </button>
+        </div>`;
 
         catalog.appendChild(card);
     });
@@ -94,7 +112,7 @@ function renderCatalog(products) {
     document.querySelectorAll('.star').forEach(icon => {
         icon.addEventListener('click', function () {
             const id = parseInt(this.dataset.id);
-            const product = products.find(p => p.id === id);
+            const product = catalog_items.find(p => p.id === id);
             if (product) {
                 product.is_favourite = !product.is_favourite;
                 renderCatalog(products); // перерисовываем
