@@ -69,32 +69,32 @@ const catalog_items = [
     }
 ]
 
-console.log(catalog_items);
+// const adaptive = [
+//     {
+//         id: 7,
+//         image: "./images/clock3.png", 
+//         title: 'восток  амфибия 2683', 
+//         price: '9 800', 
+//         is_favourite: false,
+//     },
+//     {
+//         id: 8,
+//         image: "./images/clock2.png", 
+//         title: 'восток  амфибия 2323', 
+//         price: '9 800', 
+//         is_favourite: false,
+//     },
+//     {
+//         id: 9,
+//         image: "./images/clock9.png", 
+//         title: 'восток  амфибия 2953', 
+//         price: '9 800', 
+//         is_favourite: false,
+//         id_product: 'clock9',
+//     }
+// ]
 
-const adaptive = [
-    {
-        id: 7,
-        image: "./images/clock3.png", 
-        title: 'восток  амфибия 2683', 
-        price: '9 800', 
-        is_favourite: false,
-    },
-    {
-        id: 8,
-        image: "./images/clock2.png", 
-        title: 'восток  амфибия 2323', 
-        price: '9 800', 
-        is_favourite: false,
-    },
-    {
-        id: 9,
-        image: "./images/clock9.png", 
-        title: 'восток  амфибия 2953', 
-        price: '9 800', 
-        is_favourite: false,
-        id_product: 'clock9',
-    }
-]
+const products_clone = JSON.parse(JSON.stringify(catalog_items));
 
 function renderCatalog(products) {
 
@@ -102,15 +102,15 @@ function renderCatalog(products) {
     catalog.innerHTML = '';
 
     window.addEventListener('resize', function(event){
-        if(window.innerWidth <= 673){
-            products.splice(-3);
-            renderCatalog(catalog_items);
+        while(window.innerWidth <= 673){
+            if(window.innerWidth <= 673){
+                products.splice(-3);
+                renderCatalog(products);
+            }
+            else{
+                renderCatalog(products_clone);
+            }
         }
-        else{
-            products.push(adaptive[0]);
-            renderCatalog(catalog_items);
-        }
-        
     });
 
     products.forEach(product => {
