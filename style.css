@@ -820,17 +820,6 @@ span{
     border: 1px solid rgba(0, 0, 0, 0);
 }
 
-.shadow{
-    display:none;
-    width: 152px;
-    height: 32px;
-    position: relative;
-    top: 14px;
-    left: 15px;
-    border-radius: 5px;
-    border: 1px solid rgba(0, 0, 0, 1);
-}
-
 .filter{
     display: flex;
     flex-direction: column;
@@ -1379,23 +1368,13 @@ span{
 
     .star{
         left: 257px;
-        top: -11px;
-    }
-    
-    #star1{
-        left: 255px;
-        top: -8px;
-    }
-
-    #star6{
-        left: 257px;
         top: 23px;
     }
 
     .clock2{
         width: 278px;
         height: 178px;
-        top: 0px;
+        top: 32px;
         left: 15px;
     }
     .info2{
@@ -1403,8 +1382,8 @@ span{
     }
 
     .korzina_div{
-        top: -22px;
-        height: 27px;
+        top: -21px;
+        height: 41px;
     }
 
     .vostok{
@@ -1422,25 +1401,17 @@ span{
         content: url("./images/clock5.png");
         width: 283px;
         height: 184px;
-        top: -7px;
+        top: 27px;
         left: 15px;
-        margin-bottom: -6px;
+        margin-bottom: 27px;
     }
 
     #clock5{
         content: url("./images/clock6.png");
         width: 287px;
         height: 183px;
-        top: -12px;
+        top: 22px;
         left: 20px;
-    }
-
-    .shadow{
-        display: block;
-        width: 149px;
-        height: 30px;
-        top: 3px;
-        left: 5px;
     }
 
     #clock6{
@@ -1453,18 +1424,11 @@ span{
         left: 14px;
     }
 
+    .shadow{
+        display: none;
+    }
+
     .akcia2{
-        display: none;
-    }
-
-
-    #div7{
-        display: none;
-    }
-    #div8{
-        display: none;
-    }
-    #div9{
         display: none;
     }
 
@@ -1478,30 +1442,16 @@ span{
     }
 
     .text_boxs{
-    width: 635px;
-    height: 305px;
-    position: relative;
-    top: -625px;
-    left: 0px;
-    padding-left: 28px;
-    padding-right: 0px;
-    gap: 15px;
-    flex-direction: row;
-    flex-wrap: wrap;
+        width: 635px;
+        height: 305px;
+        position: relative;
+        top: -625px;
+        left: 0px;
+        padding-left: 28px;
+        padding-right: 0px;
+        gap: 15px;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 }
