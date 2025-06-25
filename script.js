@@ -96,20 +96,20 @@ const catalog_items = [
 
 const products_clone = JSON.parse(JSON.stringify(catalog_items));
 
+const products_clone2 = JSON.parse(JSON.stringify(products_clone));
+
 function renderCatalog(products) {
 
     const catalog = document.getElementById('catalog');
     catalog.innerHTML = '';
 
     window.addEventListener('resize', function(event){
-        while(window.innerWidth <= 673){
-            if(window.innerWidth <= 673){
-                products.splice(-3);
-                renderCatalog(products);
-            }
-            else{
-                renderCatalog(products_clone);
-            }
+        if(window.innerWidth <= 673){
+            products.splice(-3);
+            renderCatalog(products);
+        }
+        else{
+            renderCatalog(products_clone2);
         }
     });
 
