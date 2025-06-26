@@ -140,7 +140,6 @@ function renderCatalog(products) {
         });
     });
 }
-changeResaze();
 renderCatalog(catalog_items);
 
 
