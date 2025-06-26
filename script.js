@@ -69,49 +69,30 @@ const catalog_items = [
     }
 ]
 
-// const adaptive = [
-//     {
-//         id: 7,
-//         image: "./images/clock3.png", 
-//         title: 'восток  амфибия 2683', 
-//         price: '9 800', 
-//         is_favourite: false,
-//     },
-//     {
-//         id: 8,
-//         image: "./images/clock2.png", 
-//         title: 'восток  амфибия 2323', 
-//         price: '9 800', 
-//         is_favourite: false,
-//     },
-//     {
-//         id: 9,
-//         image: "./images/clock9.png", 
-//         title: 'восток  амфибия 2953', 
-//         price: '9 800', 
-//         is_favourite: false,
-//         id_product: 'clock9',
-//     }
-// ]
+const MOBILE_BREAKPOINT = 673;
 
-const products_clone = JSON.parse(JSON.stringify(catalog_items));
+function changeResaze(){
+    if(window.innerWidth <= MOBILE_BREAKPOINT){          
+        let products_clone = JSON.parse(JSON.stringify(catalog_items)).slice(0,6); 
+        console.log('Ширина:', window.innerWidth, 'Кол-во товаров:', products_clone.length);
+        renderCatalog(products_clone);
+    }
+    else{
+        console.log('window.innerWidth',window.innerWidth)
+        renderCatalog(catalog_items);
+    }
+}
 
-const products_clone2 = JSON.parse(JSON.stringify(products_clone));
+changeResaze();
+
+window.addEventListener('resize', function(event){
+    changeResaze();
+});
 
 function renderCatalog(products) {
 
     const catalog = document.getElementById('catalog');
     catalog.innerHTML = '';
-
-    window.addEventListener('resize', function(event){
-        if(window.innerWidth <= 673){
-            products.splice(-3);
-            renderCatalog(products);
-        }
-        else{
-            renderCatalog(products_clone2);
-        }
-    });
 
     products.forEach(product => {
         const card = document.createElement('div');
@@ -159,6 +140,7 @@ function renderCatalog(products) {
         });
     });
 }
+changeResaze();
 renderCatalog(catalog_items);
 
 
